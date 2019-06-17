@@ -113,7 +113,7 @@ python train.py --seed=3 --tune_all --save_dir=st-lstm
 ## Code Contributors
 
 * Matthew MacKay
-* [Paul Vicol](www.paulvicol.com)
+* [Paul Vicol](https://www.paulvicol.com)
 * [Jon Lorraine](https://www.cs.toronto.edu/~lorraine/index.html)
 
 
