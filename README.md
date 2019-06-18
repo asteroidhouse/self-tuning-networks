@@ -110,6 +110,55 @@ python train.py --seed=3 --tune_all --save_dir=st-lstm
 ```
 
 
+## Project Structure
+```
+.
+├── README.md
+├── cnn
+│   ├── datasets
+│   │   ├── __init__.py
+│   │   ├── cifar.py
+│   │   └── loaders.py
+│   ├── hypermodels
+│   │   ├── __init__.py
+│   │   ├── alexnet.py
+│   │   ├── hyperconv2d.py
+│   │   ├── hyperlinear.py
+│   │   └── small.py
+│   ├── hypertrain.py
+│   ├── logger.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── alexnet.py
+│   │   └── small.py
+│   ├── train_basic.py
+│   └── util
+│       ├── __init__.py
+│       ├── cutout.py
+│       ├── dropout.py
+│       └── hyperparameter.py
+├── lstm
+│   ├── data.py
+│   ├── embed_regularize.py
+│   ├── getdata.sh
+│   ├── hyperlstm.py
+│   ├── locked_dropout.py
+│   ├── logger.py
+│   ├── model_basic.py
+│   ├── save_dropouto_schedule_plot.py
+│   ├── train.py
+│   ├── train_basic.py
+│   ├── utils.py
+│   └── weight_drop.py
+├── requirements.txt
+└── stn_utils
+    ├── __init__.py
+    └── hyperparameter.py
+
+7 directories, 34 files
+```
+
+
 ## Code Contributors
 
 * Matthew MacKay
